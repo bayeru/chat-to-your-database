@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
+    "checkJs": true,
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
@@ -15,7 +17,12 @@
     "jsx": "preserve",
     "incremental": true,
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],      
+    }
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs"
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
