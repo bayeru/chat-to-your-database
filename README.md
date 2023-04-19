@@ -1,3 +1,5 @@
+# Chat to your database
+
 This is an experimental app to test the abilities of LLMs to query SQL databases using natural language.
 To use it, you should add your OPENAI_API_KEY to the .env.local file.
 
